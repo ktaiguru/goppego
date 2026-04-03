@@ -37,5 +37,5 @@ old_DNS/
 *.part004.zip
 goppego.WordPress.2026-04-03.xml
 GOPPEGO_Migration_Handoff.docx
-index.html
+# index.html is tracked — do not ignore
 uploads.zip
