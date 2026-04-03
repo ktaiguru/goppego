@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Mail, MapPin, Clock, ArrowRight, CheckCircle } from 'lucide-react';
+import { Mail, Clock, ArrowRight, CheckCircle } from 'lucide-react';
 import { Helmet } from 'react-helmet-async';
 
 const nextSteps = [
@@ -227,9 +227,8 @@ export default function Contact() {
               </h3>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
                 {[
-                  { icon: Mail, label: 'Email', value: 'hello@goppego.org', href: 'mailto:hello@goppego.org' },
-                  { icon: MapPin, label: 'Location', value: 'Killeen, Texas', href: null },
-                  { icon: Clock, label: 'Response Time', value: 'Within 24 hours', href: null },
+                  { icon: Mail, label: 'Email', value: 'info@goppego.org', href: 'mailto:info@goppego.org' },
+                  { icon: Clock, label: 'Response Time', value: 'Within 24–48 hours', href: null },
                 ].map(({ icon: Icon, label, value, href }) => (
                   <div key={label} style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
                     <div style={{
