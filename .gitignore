@@ -1,0 +1,41 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local Netlify folder
+.netlify
+
+# Old build artifacts & backups
+build_output/
+dist_new/
+old_DNS/
+*.zip
+*.part001.zip
+*.part002.zip
+*.part003.zip
+*.part004.zip
+goppego.WordPress.2026-04-03.xml
+GOPPEGO_Migration_Handoff.docx
+index.html
+uploads.zip
